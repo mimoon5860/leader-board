@@ -1,0 +1,135 @@
+*{margin:0; padding: 0;}
+body{
+    background-color: #F3F1FF;
+}
+/* Heading section */
+.header-bg{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 870px;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-lightbulb{
+    font-size: 50px;
+    color: white;
+}
+.icon h2{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    margin-left: 15px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-items ul{
+   display: flex;
+}
+.menu-items ul li {
+    list-style-type: none;
+}
+.menu-items ul li:hover a{
+    text-decoration: underline;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 18px;
+}
+.main-img img{
+    margin-left: 20px;
+}
+
+/* top player section */
+.container{
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-wrapper{
+    width: 870px;
+    background-color: white;
+    padding: 30px;
+}
+.top-player{
+
+}
+.hedding{
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+}
+.players{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 150px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+}
+.player h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+/* Top blog section */
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-blog{
+    display: flex;
+    width: 350px;
+    margin-top: 30px;
+}
+.single-blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-info h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+}
+.blog-info p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+.blog-info p a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
