@@ -16,15 +16,9 @@
         font-size: 20px;
         color: white;
     }
-    .menu{
-        
-        justify-content: center;
-        align-items: center;
-    }
+  
     .icon h2{
-        
         font-size: 20px;
-        
         margin-left: 5px;
     }
     .menu-items ul li a{
@@ -56,6 +50,9 @@
     .players{
     display: flex;
     flex-direction: column;
+    }
+    .player{
+        margin-top: 10px;
     }
     hr{
         margin: 0;
