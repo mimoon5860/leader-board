@@ -1,6 +1,7 @@
 *{margin:0; padding: 0;}
 body{
     background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
 }
 /* Heading section */
 .header-bg{
@@ -67,9 +68,7 @@ body{
     padding: 30px;
     border-radius: 10px;
 }
-.top-player{
 
-}
 .heading{
     font-weight: 500;
     font-size: 24px;
@@ -79,7 +78,7 @@ body{
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px 150px;
+    grid-gap: 30px 120px;
 }
 .player{
     display: flex;
@@ -106,8 +105,9 @@ hr{
 }
 .single-blog{
     display: flex;
-    width: 350px;
+    width: 400px;
     margin-top: 30px;
+
 }
 .single-blog img{
     width: 177px;
@@ -115,6 +115,8 @@ hr{
 }
 .blog-info{
     margin-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .blog-info h3{
     font-weight: 500;
