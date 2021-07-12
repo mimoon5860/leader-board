@@ -20,9 +20,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-.fa-lightbulb{
-    font-size: 50px;
-    color: white;
+.icon img{
+    width: 40.42px;
+    height: 51px;
 }
 .icon h2{
     font-weight: 500;

@@ -12,9 +12,9 @@
     .icon{
         margin-left: 10px;
     }
-    .fa-lightbulb{
-        font-size: 20px;
-        color: white;
+    .icon img{
+        width: 30px;
+        height: 40px;
     }
   
     .icon h2{
